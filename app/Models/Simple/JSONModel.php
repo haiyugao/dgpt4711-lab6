@@ -1,14 +1,7 @@
 <?php
 namespace App\Models\Simple;
 
-use App\Models\Simple\JSONModel;
 
-class Places extends JSONModel
-{
-    protected $origin = WRITEPATH . 'Data/placesData.json';
-    protected $keyField = 'id';
-    protected $validationRules = [];
-}
 
 /**
  * SimpleModel persisted as JSON document
